@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 700px;
+    margin: 5px auto;
+}
+.nav {
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    background-color: lightgray;
+    justify-content: space-between;
+    margin-top: -1%;
+}
+.nav button {
+    width: 80px;
+    padding: 5px;
+    background-color: rgb(67, 110, 248);
+    color: white;
+    box-shadow: 3.25px 3px black;
+}
+input {
+    padding: 3px;
+    width: 250px;
+    border: 2px solid black;
+}
+main {
+    display: flex;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+}
+h2 {
+    font-size: 30px;
+}
+.container-left p {
+    margin-top: 10px;
+}
+.left {
+    flex: 2;
+}
+.right {
+    flex: 1;
+}
+.container-left {
+    display: flex;
+    flex: 1;
+    margin: 20px 20px 20px 0;
+    padding: 10px;
+    border: black 2px solid;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-right {
+    margin-top: 20px;
+    border: black 2px solid;
+    padding: 10px;
+}
+.container-left div {
+    flex: 1;
+    text-align: center;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+.definition {
+    flex: 2;
+    text-align: left;
+    margin-top: 20px;
+}
+#like1st, #like2nd {
+    width: 80px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(218, 191, 72);
+    box-shadow: 3px 3px black;
+} 
+.container-right p {
+    font-size: 20px;
+}
+#addDefinition {
+    font-size: 20px;
+    background-color: rgb(110, 175, 110);
+    width: 205px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    padding: 5px 5px ;
+    box-shadow: 4px 4px black;
+}
